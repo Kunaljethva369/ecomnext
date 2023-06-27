@@ -16,21 +16,21 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <Link href={'/'}>
-                            <li className="nav-item">
+                        <li className="nav-item">
+                            <Link href={'/'}>
                                 <span className='nav-link'>Home</span>
-                            </li>
-                        </Link>
-                        <Link href={'/about'}>
-                            <li className="nav-item">
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={'/about'}>
                                 <span className='nav-link'>About</span>
-                            </li>
-                        </Link>
-                        <Link href={'/service'}>
-                            <li className="nav-item">
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={'/service'}>
                                 <span className='nav-link'>Service</span>
-                            </li>
-                        </Link>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
